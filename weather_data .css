@@ -1,0 +1,126 @@
+
+h1{color: white; font-size: 25px;}
+
+h2{color: rgb(14, 151, 151); font-size: 35px;}
+
+h3{color: rgb(14, 151, 151); font-size: 30px;}
+
+img1{display:block; margin: auto; }
+
+.para-style1 {
+    font-size: 30px;
+}
+    .navbar-brand{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 25px;
+        font-weight: bolder;
+        background-color: rgb(14, 151, 151);
+        font-color: white;
+        padding:10px;
+        margin-left: 5%;
+        
+    }
+    
+    .navbar-collapse {
+  position: absolute;
+  right: 5%;
+  font-size: small;
+}
+    .navbar-light .navbar-brand {
+        color: white;
+      }
+
+      .navbar {
+        background-color: white;
+        width: 100%;
+        padding: 0;
+      } 
+    
+    .navbar a {
+        text-decoration: ;
+    }
+
+    .navbar-brand {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 25px;
+        font-weight: bolder;
+        background-color: rgb(14, 151, 151);
+        padding: 10px;
+        margin-left: 5%;
+      }
+
+
+
+      .content {
+        width:90%;
+        margin: 20px auto;
+        padding:1em;
+      }
+
+      .buttons {
+        margin-bottom: .5em;
+      }
+      
+      .text-left {
+        text-align: left;
+        color: rgb(20, 150, 150);
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bolder;
+      }
+      
+      .text-center {
+        color: rgb(20, 150, 150);
+        font-family: 'Arial';
+        font-weight: bolder;
+      }
+      
+      p:not(.intro) {
+        text-align: justify;
+        color: #3b3a3ae3;
+      }
+      
+      .thumbnail {
+        width:55%;
+      }
+      
+      .main-image {      
+          margin-left: auto;
+          margin-right: auto;
+          width: 50%;
+          float: left;
+      }
+      
+      .col-md-8 {
+        background-color: rgba(255, 255, 255, 0.911);
+      }
+      
+      .col-sm-12,.col-md-4 {
+        background-color: rgba(255, 255, 255, 0.849);
+      }
+      
+      div.col-sm-12.col-md-12 div.col-lg-6.col-sm-12 img {
+        width: 100%;
+      }
+      
+      .imagetiles {
+        background-color: rgba(255, 255, 255, 0.89);
+      }
+      div.imagetiles div.col-lg-6.col-sm-12 img {
+        width: 100%;
+      }
+      
+      div.col-sm-12.col-md-12 p {
+        color: rgba(32, 32, 32, 0.486);
+        font-size: medium;
+      }
+      
+      .panel-body:hover {
+        border-color: rgb(55, 43, 226);
+        border size: 50px;
+      }
+      
+      @include media-breakpoint-down(md) {
+        .col-md-8 {
+          display: block;
+        }
+      }    
